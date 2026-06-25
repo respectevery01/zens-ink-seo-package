@@ -18,7 +18,7 @@ def main():
     print("Tools:")
     for name, desc in TOOLS:
         print(f"  {name:25s}  {desc}")
-    print(f"\nDocs: https://github.com/uzenlabs/zens-ink\n")
+    print(f"\nDocs: https://github.com/respectevery01/zens-ink-seo-package\n")
 
 if __name__ == "__main__":
     main()

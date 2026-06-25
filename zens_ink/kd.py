@@ -137,18 +137,45 @@ def _http_post_json(url, data, headers=None, timeout=15):
 
 # ── RDAP domain age ────────────────────────────────────────────────────────
 
+# Persistent domain age cache — avoids redundant RDAP lookups across keywords
+_DOMAIN_AGE_CACHE = {}
+_DOMAIN_AGE_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "scripts", "domain-age-cache.json")
+def _load_domain_age_cache():
+    global _DOMAIN_AGE_CACHE
+    if not _DOMAIN_AGE_CACHE:
+        try:
+            with open(_DOMAIN_AGE_CACHE_PATH) as f:
+                _DOMAIN_AGE_CACHE = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            _DOMAIN_AGE_CACHE = {}
+def _save_domain_age_cache():
+    try:
+        os.makedirs(os.path.dirname(_DOMAIN_AGE_CACHE_PATH), exist_ok=True)
+        with open(_DOMAIN_AGE_CACHE_PATH, "w") as f:
+            json.dump(_DOMAIN_AGE_CACHE, f, indent=2)
+    except Exception:
+        pass
+
 def get_domain_age(domain):
-    """Return registration year (int) via RDAP, or None."""
+    """Return registration year (int) via RDAP, or None. Cached persistently."""
     clean = domain.replace("www.", "")
+    _load_domain_age_cache()
+    if clean in _DOMAIN_AGE_CACHE:
+        return _DOMAIN_AGE_CACHE[clean]
     try:
         req = urllib.request.Request(f"https://rdap.org/domain/{clean}")
         with urllib.request.urlopen(req, timeout=8) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         for event in data.get("events", []):
             if event.get("eventAction") == "registration":
-                return int(event["eventDate"][:4])
+                year = int(event["eventDate"][:4])
+                _DOMAIN_AGE_CACHE[clean] = year
+                _save_domain_age_cache()
+                return year
     except Exception:
         pass
+    _DOMAIN_AGE_CACHE[clean] = None
+    _save_domain_age_cache()
     return None
 
 # ── Serper SERP fetch ──────────────────────────────────────────────────────
