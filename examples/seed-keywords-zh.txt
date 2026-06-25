@@ -1,0 +1,14 @@
+# Seed keywords for batch volume research
+# One keyword per line. Lines starting with # are ignored.
+
+# Chinese market
+塔罗牌
+塔罗占卜
+八字排盘
+八字算命
+生辰八字
+解梦
+周公解梦
+流年运势
+答案之书
+塔罗牌阵
