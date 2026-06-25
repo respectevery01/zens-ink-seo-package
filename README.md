@@ -63,6 +63,6 @@ MIT — free for personal and commercial use.
 
 <div align="center">
 
-Made by [UZEN Labs](https://uzenlabs.com)
+Made by [Jask](https://github.com/respectevery01)
 
 </div>

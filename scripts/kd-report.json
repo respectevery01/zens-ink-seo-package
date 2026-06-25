@@ -1,0 +1,2163 @@
+{
+  "total_analyzed": 269,
+  "summary": {
+    "traps": 0,
+    "medium": 31,
+    "easy": 96,
+    "blue_ocean": 142
+  },
+  "category_stats": {
+    "en_tarot": {
+      "count": 118,
+      "kd_sum": 2896.7,
+      "kd_min": 1,
+      "kd_max": 53.5,
+      "kd_avg": 24.5
+    },
+    "en_bazi": {
+      "count": 63,
+      "kd_sum": 1070.4,
+      "kd_min": 1,
+      "kd_max": 52.7,
+      "kd_avg": 17.0
+    },
+    "en_dream": {
+      "count": 88,
+      "kd_sum": 2201.4,
+      "kd_min": 1,
+      "kd_max": 50.1,
+      "kd_avg": 25.0
+    }
+  },
+  "blue_ocean": [
+    {
+      "keyword": "tarot card meanings cheat sheet",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 20.6,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 6,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 4.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "yes or no tarot accurate 100 percent",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 18.8,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 4,
+        "inner_count": 5,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 9.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "tarot spread for career",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 19.6,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 1,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 8.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "tarot cards list",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 18.4,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 6,
+        "inner_count": 2,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 9.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "how to read tarot for someone else",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 18.8,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 6,
+        "inner_count": 3,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 9.3,
+        "weak_domain_count": 6,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "bazi calculator and analysis",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 15.2,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 1,
+        "inner_count": 7,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 14.3,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "bazi calculator and analysis free",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 15.2,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 5,
+        "inner_count": 3,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 11.7,
+        "weak_domain_count": 6,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "bazi calculator ai",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 13.9,
+      "modifier_total": -22,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 4,
+        "inner_count": 3,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 2.0,
+        "weak_domain_count": 9,
+        "weak_in_top5": 5,
+        "new_domain_count": 2
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "young_domains": -6,
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "four pillars of destiny analysis free",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 14.9,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 5,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 12.0,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "four pillars of democracy",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 19.8,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 0,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": null,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "four pillars of heart failure",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 14.2,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 4,
+        "inner_count": 4,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 21.0,
+        "weak_domain_count": 6,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "bazi reading online",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 13.6,
+      "modifier_total": -16,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 1,
+        "inner_count": 6,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 9.0,
+        "weak_domain_count": 8,
+        "weak_in_top5": 4,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "bazi reading ai",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 13.3,
+      "modifier_total": -26,
+      "serp_analysis": {
+        "homepage_count": 2,
+        "dedicated_count": 3,
+        "inner_count": 5,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 2.0,
+        "weak_domain_count": 9,
+        "weak_in_top5": 4,
+        "new_domain_count": 2
+      },
+      "modifiers": {
+        "young_domains": -6,
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "bazi chart 2026",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 19.1,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 4,
+        "inner_count": 4,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 7.5,
+        "weak_domain_count": 6,
+        "weak_in_top5": 3,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "what does my dream mean when my teeth fall out",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 18.6,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 4,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 8.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream analysis freud",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 16.7,
+      "modifier_total": -20,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 2,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": null,
+        "weak_domain_count": 7,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream symbols copy and paste",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 17.7,
+      "modifier_total": -25,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 8,
+        "inner_count": 2,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 4.2,
+        "weak_domain_count": 8,
+        "weak_in_top5": 4,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "dream dictionary tony crisp",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 1.1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 15.1,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 4,
+        "inner_count": 6,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 21.8,
+        "weak_domain_count": 7,
+        "weak_in_top5": 2,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -10,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "chinese astrology chart calculator",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 1.4,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 15.4,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 5,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 15.0,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "how to read tarot cards for someone else",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1.5,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 15.5,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 1,
+        "inner_count": 8,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 16.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "tarot spreads for the future",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 1.6,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 16.6,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 2,
+        "inner_count": 6,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 14.3,
+        "weak_domain_count": 3,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream about snakes in islam",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 2.1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 16.1,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 1,
+        "inner_count": 8,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 3.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "brand_dominated": 12,
+        "young_domains": -6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "bazi calculator singapore",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 2.4,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 17.4,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 8,
+        "inner_count": 1,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 11.4,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "chinese astrology signs",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 2.4,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 16.4,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 3,
+        "inner_count": 5,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 27.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "what does my dream mean in islam",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 2.8,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 17.8,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 4,
+        "inner_count": 4,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": null,
+        "weak_domain_count": 7,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream analysis psychoanalysis",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 2.9,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 16.9,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 4,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 22.0,
+        "weak_domain_count": 6,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "chinese astrology birth chart",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 3.0,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 17.0,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 4,
+        "inner_count": 4,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 15.8,
+        "weak_domain_count": 4,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream analysis psychology",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 3.1,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 18.1,
+      "modifier_total": -15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 6,
+        "inner_count": 2,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": null,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream analysis by sigmund freud",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 3.3,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 17.3,
+      "modifier_total": -14,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 4,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 32.0,
+        "weak_domain_count": 6,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "chinese fortune telling online free",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 3.6,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 12.6,
+      "modifier_total": -9,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 3,
+        "inner_count": 6,
+        "platform_count": 0,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 31.0,
+        "weak_domain_count": 9,
+        "weak_in_top5": 4,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    }
+  ],
+  "easy": [
+    {
+      "keyword": "what does my dream mean",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 25.0,
+      "label": "极易",
+      "label_en": "Very Easy",
+      "recommendation": "蓝海词，优先创建内容抢占先机",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 23.0,
+      "modifier_total": 2,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 5,
+        "inner_count": 1,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 19.7,
+        "weak_domain_count": 5,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "chinese astrology",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 25.1,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 24.1,
+      "modifier_total": 1,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 3,
+        "inner_count": 4,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 18.8,
+        "weak_domain_count": 1,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "what does my dream mean website",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 25.1,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.1,
+      "modifier_total": 2,
+      "serp_analysis": {
+        "homepage_count": 5,
+        "dedicated_count": 2,
+        "inner_count": 3,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 1,
+        "avg_domain_age": 13.5,
+        "weak_domain_count": 6,
+        "weak_in_top5": 3,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "homepage_heavy": 10,
+        "brand_dominated": 12,
+        "weak_top5": -15,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "daily tarot",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 25.5,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 25.5,
+      "modifier_total": 0,
+      "serp_analysis": {
+        "homepage_count": 4,
+        "dedicated_count": 3,
+        "inner_count": 3,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 2,
+        "avg_domain_age": 19.7,
+        "weak_domain_count": 3,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "four pillars bloody shiraz gin",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 25.6,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.6,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 8,
+        "inner_count": 0,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 23.5,
+        "weak_domain_count": 5,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream meaning in malayalam",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 25.7,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.7,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 3,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 21.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "tarot card meaning in hindi",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 25.8,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.8,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 8,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 20.0,
+        "weak_domain_count": 6,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "four pillars gin",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 26.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 23.0,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 2,
+        "dedicated_count": 6,
+        "inner_count": 0,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 24.3,
+        "weak_domain_count": 4,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream interpretation islam",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.0,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 2,
+        "dedicated_count": 8,
+        "inner_count": 0,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": null,
+        "weak_domain_count": 7,
+        "weak_in_top5": 3,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -15
+      }
+    },
+    {
+      "keyword": "dream dictionary a to z",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.0,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 2,
+        "dedicated_count": 6,
+        "inner_count": 1,
+        "platform_count": 0,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 21.6,
+        "weak_domain_count": 5,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream dictionary snakes",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.0,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 2,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 17.4,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "yes or no tarot free",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 26.1,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 21.1,
+      "modifier_total": 5,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 1,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 15.2,
+        "weak_domain_count": 4,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "bazi chart reading",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 26.2,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.2,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 6,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 14.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream meaning in tamil",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.2,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 22.2,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 2,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 30.0,
+        "weak_domain_count": 6,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -10,
+        "top3_fortress": 6
+      }
+    },
+    {
+      "keyword": "dream analysis book",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.2,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.2,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 3,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 28.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "tarot reading yes or no",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 26.5,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 22.5,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 14.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream dictionary online free",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 26.6,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.6,
+      "modifier_total": 3,
+      "serp_analysis": {
+        "homepage_count": 7,
+        "dedicated_count": 0,
+        "inner_count": 3,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 0,
+        "avg_domain_age": 13.8,
+        "weak_domain_count": 6,
+        "weak_in_top5": 2,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "homepage_crowded": 18,
+        "weak_top5": -10,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "the lovers tarot",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 26.7,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 21.7,
+      "modifier_total": 5,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 0,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 15.2,
+        "weak_domain_count": 3,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "love tarot reading spread",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 27.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.0,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 7.5,
+        "weak_domain_count": 3,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "bazi reading adalah",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 27.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.0,
+      "modifier_total": 4,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 6,
+        "inner_count": 4,
+        "platform_count": 4,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 12.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -10
+      }
+    }
+  ],
+  "medium": [
+    {
+      "keyword": "dream dictionary meaning",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 40.0,
+      "label": "较易",
+      "label_en": "Easy",
+      "recommendation": "好机会，一篇高质量文章即可冲击首页",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 28.0,
+      "modifier_total": 12,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 5,
+        "inner_count": 1,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 24.4,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "the lovers tarot card tattoo",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 40.3,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 29.3,
+      "modifier_total": 11,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 8,
+        "inner_count": 0,
+        "platform_count": 5,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 6,
+        "avg_domain_age": 30.0,
+        "weak_domain_count": 2,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "platform_heavy": 6,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "dream dictionary online",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 40.3,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 27.3,
+      "modifier_total": 13,
+      "serp_analysis": {
+        "homepage_count": 6,
+        "dedicated_count": 4,
+        "inner_count": 0,
+        "platform_count": 1,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 17.4,
+        "weak_domain_count": 5,
+        "weak_in_top5": 1,
+        "new_domain_count": 1
+      },
+      "modifiers": {
+        "homepage_heavy": 10,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5,
+        "new_domain_proof": -5
+      }
+    },
+    {
+      "keyword": "dream about snakes in house",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 40.5,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.5,
+      "modifier_total": 17,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 3,
+        "inner_count": 6,
+        "platform_count": 4,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 24.0,
+        "weak_domain_count": 1,
+        "weak_in_top5": 0,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_lower": -3
+      }
+    },
+    {
+      "keyword": "how to read tarot for yourself",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 40.9,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 24.9,
+      "modifier_total": 16,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 0,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 12.3,
+        "weak_domain_count": 4,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "daily tarot reading free",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 40.9,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 28.9,
+      "modifier_total": 12,
+      "serp_analysis": {
+        "homepage_count": 4,
+        "dedicated_count": 4,
+        "inner_count": 1,
+        "platform_count": 1,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 19.0,
+        "weak_domain_count": 2,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "the fool tarot card meaning reversed",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 41.2,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 25.2,
+      "modifier_total": 16,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 8,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 7,
+        "avg_domain_age": 14.2,
+        "weak_domain_count": 1,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "daily tarot reading",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 41.2,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 29.2,
+      "modifier_total": 12,
+      "serp_analysis": {
+        "homepage_count": 4,
+        "dedicated_count": 6,
+        "inner_count": 0,
+        "platform_count": 2,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 18.3,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "dream about teeth falling out filipino",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 41.3,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 26.3,
+      "modifier_total": 15,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 5,
+        "inner_count": 4,
+        "platform_count": 5,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 30.0,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "daily tarot horoscope",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 42.2,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 28.2,
+      "modifier_total": 14,
+      "serp_analysis": {
+        "homepage_count": 2,
+        "dedicated_count": 6,
+        "inner_count": 2,
+        "platform_count": 2,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 22.3,
+        "weak_domain_count": 2,
+        "weak_in_top5": 0,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "mature_niche": 14,
+        "old_domains": 6,
+        "weak_lower": -6
+      }
+    },
+    {
+      "keyword": "dream interpretation biblical",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 42.9,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 27.9,
+      "modifier_total": 15,
+      "serp_analysis": {
+        "homepage_count": 1,
+        "dedicated_count": 7,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": false,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 21.3,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "mature_niche": 14,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "four pillars group",
+      "category": "en_bazi",
+      "lang": "en",
+      "kd": 44.0,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 26.0,
+      "modifier_total": 18,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 6,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 11.2,
+        "weak_domain_count": 5,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "dream about teeth falling out and growing back",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 45.0,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 24.0,
+      "modifier_total": 21,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 4,
+        "inner_count": 5,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 4,
+        "avg_domain_age": 18.3,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5,
+        "top3_fortress": 6
+      }
+    },
+    {
+      "keyword": "yes or no tarot",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 45.4,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 23.4,
+      "modifier_total": 22,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 6,
+        "avg_domain_age": 16.4,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "tarot cards list phasmophobia",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 45.9,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 23.9,
+      "modifier_total": 22,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 17.0,
+        "weak_domain_count": 3,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "daily tarot draw",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 46.1,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 26.1,
+      "modifier_total": 20,
+      "serp_analysis": {
+        "homepage_count": 3,
+        "dedicated_count": 5,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 12.0,
+        "weak_domain_count": 3,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "yes or no tarot card reading",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 46.2,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 24.2,
+      "modifier_total": 22,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 9,
+        "inner_count": 1,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 21.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    },
+    {
+      "keyword": "dream interpretation",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 46.5,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 27.5,
+      "modifier_total": 19,
+      "serp_analysis": {
+        "homepage_count": 4,
+        "dedicated_count": 4,
+        "inner_count": 2,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 3,
+        "avg_domain_age": 26.0,
+        "weak_domain_count": 5,
+        "weak_in_top5": 2,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "homepage_moderate": 4,
+        "established_niche": 7,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -10
+      }
+    },
+    {
+      "keyword": "what does my dream mean when someone is trying to kill me",
+      "category": "en_dream",
+      "lang": "en",
+      "kd": 46.9,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": null,
+      "base_score": 25.9,
+      "modifier_total": 21,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 7,
+        "inner_count": 2,
+        "platform_count": 4,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 5,
+        "avg_domain_age": 23.7,
+        "weak_domain_count": 2,
+        "weak_in_top5": 0,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_lower": -6
+      }
+    },
+    {
+      "keyword": "yes or no tarot card",
+      "category": "en_tarot",
+      "lang": "en",
+      "kd": 47.1,
+      "label": "中等",
+      "label_en": "Medium",
+      "recommendation": "有机会，做好内容质量和内链即可竞争",
+      "is_brand": false,
+      "search_volume": 0,
+      "base_score": 25.1,
+      "modifier_total": 22,
+      "serp_analysis": {
+        "homepage_count": 0,
+        "dedicated_count": 10,
+        "inner_count": 0,
+        "platform_count": 3,
+        "has_brand_sitelinks": true,
+        "mature_dedicated_count": 6,
+        "avg_domain_age": 21.0,
+        "weak_domain_count": 4,
+        "weak_in_top5": 1,
+        "new_domain_count": 0
+      },
+      "modifiers": {
+        "no_homepages": -5,
+        "mature_niche": 14,
+        "brand_dominated": 12,
+        "old_domains": 6,
+        "weak_top5": -5
+      }
+    }
+  ],
+  "traps": []
+}
