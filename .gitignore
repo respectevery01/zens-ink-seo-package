@@ -3,3 +3,13 @@ __pycache__/
 *.pyc
 *.csv
 .DS_Store
+
+# Runtime data
+cache/*.json
+*.cache.json
+*-cache.json
+domain-age-cache.json
+kd-cache.json
+kd-progress.log
+kd-report.json
+brave-volume-*.json
