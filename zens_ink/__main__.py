@@ -6,6 +6,7 @@ import sys
 TOOLS = [
     ("keyword_research", "Discover keywords via Google Autocomplete"),
     ("keyword_volume",   "Check real search volume via Bing API"),
+    ("kd",               "Keyword Difficulty score via SERP structure analysis"),
     ("search_performance", "Your site's Google search data (GSC)"),
     ("competitor_gap",   "Analyze competitor content via sitemaps"),
     ("setup_gsc",        "One-time OAuth setup for Search Console"),
