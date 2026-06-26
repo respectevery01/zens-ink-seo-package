@@ -55,10 +55,6 @@ python3 -m zens_ink.search_performance
 
 完整案例和 Pro 增值包见 [zens.ink](https://zens.ink)
 
-## 路线图
-
-完整规划见 [ROADMAP.zh.md](ROADMAP.zh.md)（开源工具 + Pro 工作流引擎）。
-
 ## 开源协议
 
 MIT — 个人和商业项目均可自由使用。
