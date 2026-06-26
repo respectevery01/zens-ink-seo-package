@@ -1,11 +1,7 @@
-# Seed keywords for English market
-tarot reading
-tarot card meaning
-yes or no tarot
-dream interpretation
-dream dictionary
-dream about snakes
-bazi calculator
-four pillars
-fortune telling
-oracle cards
+# Seed keywords — replace with your own niche keywords
+# One keyword per line, lines starting with # are ignored
+best coffee grinder
+how to brew coffee
+sourdough starter guide
+mechanical keyboard switch guide
+python web scraping tutorial

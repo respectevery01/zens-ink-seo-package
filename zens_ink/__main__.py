@@ -7,13 +7,14 @@ TOOLS = [
     ("keyword_research", "Discover keywords via Google Autocomplete"),
     ("keyword_volume",   "Check real search volume via Bing API"),
     ("kd",               "Keyword Difficulty score via SERP structure analysis"),
+    ("brave_volume",     "Estimate search demand via Brave SERP signals"),
     ("search_performance", "Your site's Google search data (GSC)"),
     ("competitor_gap",   "Analyze competitor content via sitemaps"),
     ("setup_gsc",        "One-time OAuth setup for Search Console"),
 ]
 
 def main():
-    print(f"\nzens.ink CLI v0.1.0 — Free SEO keyword research toolkit\n")
+    print(f"\nzens.ink CLI v0.2.0 — Free SEO keyword research toolkit\n")
     print("Usage: python3 -m zens_ink.<tool> [options]\n")
     print("Tools:")
     for name, desc in TOOLS:

@@ -20,13 +20,13 @@ Usage:
 import json
 import csv
 import sys
-import os
 import time
 import math
 import urllib.request
 import urllib.parse
 
-BRAVE_API_KEY = os.getenv("BRAVE_API_KEY", "")
+from zens_ink.config import BRAVE_API_KEY
+
 BRAVE_URL = "https://api.search.brave.com/res/v1/web/search"
 
 

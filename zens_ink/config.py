@@ -25,6 +25,12 @@ load_env()
 # Bing Webmaster Tools
 BING_API_KEY = os.environ.get("BING_API_KEY", "")
 
+# Serper.dev (SERP data for KD analysis)
+SERPER_API_KEY = os.environ.get("SERPER_API_KEY", "")
+
+# Brave Search API (volume estimation)
+BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY", "")
+
 # Google Search Console
 GSC_SITE_URL = os.environ.get("GSC_SITE_URL", "")  # e.g. sc-domain:example.com
 ADC_PATH = os.environ.get(

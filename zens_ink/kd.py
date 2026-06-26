@@ -28,9 +28,8 @@ from datetime import datetime, timezone
 
 # ── Config ──────────────────────────────────────────────────────────────────
 
-SERPER_API_KEY = os.getenv("SERPER_API_KEY", "")
+from zens_ink.config import SERPER_API_KEY, BING_API_KEY
 SERPER_URL = "https://google.serper.dev/search"
-BING_API_KEY = os.getenv("BING_API_KEY", "")
 BING_STATS_URL = "https://ssl.bing.com/webmaster/api.svc/json/GetKeywordStats"
 
 # Curated authority domains (high DR proxies — no API needed)
@@ -139,7 +138,7 @@ def _http_post_json(url, data, headers=None, timeout=15):
 
 # Persistent domain age cache — avoids redundant RDAP lookups across keywords
 _DOMAIN_AGE_CACHE = {}
-_DOMAIN_AGE_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "scripts", "domain-age-cache.json")
+_DOMAIN_AGE_CACHE_PATH = os.path.join(os.path.expanduser("~"), ".zens_ink", "domain-age-cache.json")
 def _load_domain_age_cache():
     global _DOMAIN_AGE_CACHE
     if not _DOMAIN_AGE_CACHE:
@@ -328,6 +327,15 @@ def calculate_kd(serp_data, keyword, search_volume=None):
             ):
                 is_brand_keyword = True
                 brand_warning = (
+                    f'⚠ Brand keyword detected: Google treats "{keyword}" as a brand query (#1 result has Sitelinks).\n'
+                    f"  Ranking directly is nearly impossible — target derivative keywords instead:\n"
+                    f"  · `{keyword} alternative`\n"
+                    f"  · `{keyword} vs [competitor]`\n"
+                    f"  · `{keyword} review`\n"
+                    f"  · `best {keyword} alternatives`\n"
+                    f"  · `how to use {keyword}`\n"
+                    f"  · `{keyword} pricing`\n"
+                    f"\n"
                     f"⚠ 品牌词检测：Google 将「{keyword}」识别为品牌查询（#1 结果含 Sitelinks）。\n"
                     f"  正面排名几乎不可能——建议改打衍生词：\n"
                     f"  · `{keyword} alternative` / `{keyword} 替代`\n"
