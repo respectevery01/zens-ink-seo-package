@@ -55,6 +55,10 @@ python3 -m zens_ink.search_performance
 
 Full case study and Pro package at [zens.ink](https://zens.ink).
 
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for the full plan (open-source tools + Pro workflow engine).
+
 ## License
 
 MIT — free for personal and commercial use.
