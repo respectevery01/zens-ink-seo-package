@@ -17,7 +17,7 @@
 - 纯 Python stdlib，零依赖
 - clone 即用，无安装摩擦
 
-**Pro（v7）**
+**Pro（v1.3.1）**
 - Winability Score、Content Radar、Competitor Radar
 - 每买家水印、Agent Skills 兼容
 
@@ -34,7 +34,7 @@
 - [ ] `zens_ink audit` —— 一键技术 SEO 审计（canonical、孤儿页、sitemap、H1 检测）
 - [ ] 修复社区反馈的 bug 和 edge case
 
-### Pro v8 —— Content Briefs
+### Pro v1.4 —— Content Briefs
 
 当前最大断档：用户知道「该写什么词」但不知道「该怎么写」。
 
@@ -52,7 +52,7 @@
 - [ ] `internal_links` —— 站内链接结构分析，找孤儿页和链接机会
 - [ ] pip 下载量增长
 
-### Pro v9 —— GEO Score + Backlink Radar
+### Pro v1.5 —— GEO Score + Backlink Radar
 
 - **GEO Score**：你的内容被 AI 搜索引用的可能性有多大？（BLUF 前置、结构化数据、事实密度、llms.txt 是否存在）。基于 Echoir 自身 GEO 实验验证的指标体系。
 - **Backlink Radar**：用免费数据源（Common Crawl、公开链接索引）发现竞品反向链接来源。
@@ -67,7 +67,7 @@
 - [ ] 插件架构（`zens_ink.plugins`）—— 社区贡献自定义分析器
 - [ ] `zens_ink monitor` —— 持续 SERP 追踪 + 变动通知
 
-### Pro v10 —— Agent Workflow
+### Pro v2.0 —— Agent Workflow
 
 - 端到端管线：关键词发现 → Winability 过滤 → Content Brief → 草稿生成 → 内链建议 → 发布
 - 定制周报（GSC 数据 + SERP 变化 + 新机会词，自动邮件）

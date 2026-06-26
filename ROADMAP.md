@@ -18,7 +18,7 @@
 - Pure Python stdlib, zero dependencies
 - Clone and run — no install friction
 
-**Pro (v7)**
+**Pro (v1.3.1)**
 - Winability Score, Content Radar, Competitor Radar
 - Per-buyer watermarking, Agent Skills compliant
 
@@ -35,7 +35,7 @@
 - [ ] `zens_ink audit` — one-command technical SEO audit (canonical, orphan pages, sitemap, H1 checks)
 - [ ] Bug fixes and edge cases from community feedback
 
-### Pro v8 — Content Briefs
+### Pro v1.4 — Content Briefs
 
 The biggest gap right now: users know *which keywords* to target but not *how to write* for them.
 
@@ -53,7 +53,7 @@ The biggest gap right now: users know *which keywords* to target but not *how to
 - [ ] `internal_links` — site link structure analysis, find orphan pages and linking opportunities
 - [ ] Growing pip download numbers
 
-### Pro v9 — GEO Score + Backlink Radar
+### Pro v1.5 — GEO Score + Backlink Radar
 
 - **GEO Score**: How likely is your content to be cited by AI search? (BLUF presence, structured data, fact density, llms.txt existence). Validated against Echoir's own GEO experiments (dogfooding).
 - **Backlink Radar**: Discover competitor backlink sources using free data (Common Crawl, public link indices).
@@ -68,7 +68,7 @@ The biggest gap right now: users know *which keywords* to target but not *how to
 - [ ] Plugin architecture (`zens_ink.plugins`) — community-contributed analyzers
 - [ ] `zens_ink monitor` — continuous SERP tracking + change notifications
 
-### Pro v10 — Agent Workflow
+### Pro v2.0 — Agent Workflow
 
 - End-to-end pipeline: keyword discovery → Winability filter → Content Brief → draft generation → internal link suggestions → publish
 - Custom weekly report (GSC data + SERP changes + new opportunity keywords, auto-emailed)
