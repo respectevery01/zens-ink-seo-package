@@ -10,11 +10,12 @@ TOOLS = [
     ("brave_volume",     "Estimate search demand via Brave SERP signals"),
     ("search_performance", "Your site's Google search data (GSC)"),
     ("competitor_gap",   "Analyze competitor content via sitemaps"),
+    ("site_audit",       "Technical SEO audit of built HTML (orphan pages, broken links, missing tags)"),
     ("setup_gsc",        "One-time OAuth setup for Search Console"),
 ]
 
 def main():
-    print(f"\nzens.ink CLI v0.2.0 — Free SEO keyword research toolkit\n")
+    print(f"\nzens.ink CLI v0.3.0 — Free SEO toolkit for indie builders\n")
     print("Usage: python3 -m zens_ink.<tool> [options]\n")
     print("Tools:")
     for name, desc in TOOLS:

@@ -12,14 +12,17 @@ CLI tools for indie builders. Zero dependencies, pure Python.
 
 ---
 
-Four CLI tools that cover the full keyword research workflow. No paid APIs. No Ahrefs. No subscriptions. Just free data sources wired together with Python.
+Seven CLI tools that cover the full SEO workflow — from keyword research to technical audit. No paid APIs. No Ahrefs. No subscriptions. Just free data sources wired together with Python.
 
 | Tool | What it does | API needed |
 |------|-------------|-----------|
 | `keyword_research` | Discover what people search via Google Autocomplete | None |
 | `keyword_volume` | Real search demand via Bing Webmaster API | Free Bing key |
+| `kd` | Keyword difficulty score via SERP structure analysis | Free Serper key |
+| `brave_volume` | Estimate search demand via Brave SERP signals | Free Brave key |
 | `search_performance` | Your site's real Google ranking data | Free GSC OAuth |
 | `competitor_gap` | Analyze competitor content via sitemaps | None |
+| `site_audit` | Technical SEO audit: broken links, orphan pages, missing tags | None |
 
 ## Why
 
@@ -41,6 +44,9 @@ python3 -m zens_ink.keyword_volume "tarot reading" --country us
 
 # Analyze a competitor
 python3 -m zens_ink.competitor_gap --url https://example.com/sitemap.xml
+
+# Audit your build for SEO issues
+python3 -m zens_ink.site_audit --dist dist --sitemap dist/sitemap.xml
 
 # Check your own search performance
 python3 -m zens_ink.search_performance
