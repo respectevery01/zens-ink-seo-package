@@ -2,33 +2,41 @@
 
 # zens.ink
 
-### 免费 SEO 关键词研究工具包
+### 独立开发者的 SEO 工具包
 
-面向独立开发者的命令行工具。零依赖，纯 Python。
+关键词研究、竞品分析、技术审计。零依赖，纯 Python。
 
 [English](README.md) · [中文](README.zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-7c3aed?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Zero Dependencies](https://img.shields.io/badge/依赖-0-059669?style=flat-square)](https://github.com/respectevery01/zens-ink-seo-package)
+[![GitHub stars](https://img.shields.io/github/stars/respectevery01/zens-ink-seo-package?style=flat-square&color=7c3aed)](https://github.com/respectevery01/zens-ink-seo-package)
+[![GitHub last commit](https://img.shields.io/github/last-commit/respectevery01/zens-ink-seo-package?style=flat-square&color=a8a29e)](https://github.com/respectevery01/zens-ink-seo-package)
+[![PRs Welcome](https://img.shields.io/badge/PR-欢迎-7c3aed?style=flat-square)](https://github.com/respectevery01/zens-ink-seo-package/pulls)
 
 </div>
 
 ---
 
-七个命令行工具，覆盖完整的 SEO 流程 —— 从关键词研究到技术审计。不需要付费 API，不需要 Ahrefs，不需要订阅。只用免费数据源 + Python 标准库。
+八个命令行工具，覆盖完整 SEO 流程 —— 从发现用户搜什么，到分析竞品，到审计自己的站点。不需要付费 API，不需要 Ahrefs，不需要订阅。只用免费数据源 + Python 标准库。
 
 | 工具 | 功能 | 需要密钥 |
 |------|------|---------|
-| `keyword_research` | 通过 Google 自动补全发现用户搜索什么 | 无 |
+| `keyword_research` | 通过 Google 自动补全发现长尾关键词 | 无 |
 | `keyword_volume` | 通过 Bing 站长 API 获取真实搜索量 | 免费 Bing key |
 | `kd` | 基于 SERP 结构分析关键词难度 | 免费 Serper key |
-| `brave_volume` | 通过 Brave SERP 信号估算搜索需求 | 免费 Brave key |
-| `search_performance` | 你在 Google 上的真实排名数据 | 免费 GSC OAuth |
-| `competitor_gap` | 通过 sitemap 分析竞品内容 | 无 |
-| `site_audit` | 技术 SEO 审计：断链、孤岛页面、缺失标签 | 无 |
+| `brave_volume` | 通过 Brave 搜索信号交叉验证搜索需求 | 免费 Brave key |
+| `search_performance` | 你在 Google 上的真实排名数据（GSC） | 免费 GSC OAuth |
+| `competitor_gap` | 多竞品 sitemap 对比，找出内容缺口 | 无 |
+| `site_audit` | 技术 SEO 审计：断链、孤岛页面、缺失 canonical/meta/H1 | 无 |
+| `setup_gsc` | Google Search Console OAuth 一次性配置 | — |
 
 ## 为什么做这个
 
-Ahrefs 每月 $200，SEMrush 每月 $130。对独立开发者来说，只是做关键词研究，太贵了。
+Ahrefs 每月 $200，SEMrush 每月 $130。对独立开发者来说，只是想做关键词研究，太贵了。
 
-zens.ink 把免费公开数据源 —— Google 自动补全、Bing 站长工具、Google Search Console —— 串在一起，零 Python 依赖。
+zens.ink 把免费公开数据源 —— Google 自动补全、Bing 站长工具、Google Search Console、Brave 搜索 —— 串在一起，零 Python 依赖。
 
 ## 快速开始
 
@@ -36,14 +44,19 @@ zens.ink 把免费公开数据源 —— Google 自动补全、Bing 站长工具
 git clone https://github.com/respectevery01/zens-ink-seo-package.git
 cd zens-ink-seo-package
 
-# 发现关键词
+# 发现关键词（a-z 长尾展开）
 python3 -m zens_ink.keyword_research "塔罗牌" --lang zh --expand
 
 # 查搜索量
 python3 -m zens_ink.keyword_volume "塔罗牌" --country cn --lang zh-CN
 
-# 分析竞品
-python3 -m zens_ink.competitor_gap --url https://example.com/sitemap.xml
+# 关键词难度（支持中文模式）
+python3 -m zens_ink.kd "塔罗牌" --zh
+
+# 一次对比 3 个竞品
+python3 -m zens_ink.competitor_gap \
+  --url https://yoursite.com/sitemap.xml \
+  --compare https://competitor-a.com/sitemap.xml https://competitor-b.com/sitemap.xml
 
 # 审计构建产物的 SEO 问题
 python3 -m zens_ink.site_audit --dist dist --sitemap dist/sitemap.xml
@@ -52,14 +65,30 @@ python3 -m zens_ink.site_audit --dist dist --sitemap dist/sitemap.xml
 python3 -m zens_ink.search_performance
 ```
 
+## 典型工作流
+
+```
+keyword_research  →  发现用户在搜什么
+        ↓
+keyword_volume    →  按真实搜索量筛选
+        ↓
+kd                →  挑你能排上去的词
+        ↓
+competitor_gap    →  看竞品已经覆盖了什么
+        ↓
+site_audit        →  确保你的页面能被正常抓取
+```
+
 ## 环境要求
 
 - Python 3.10+
 - 无需 pip install — 纯标准库实现
+- API 密钥（Bing、Serper、Brave、GSC）存在 `.env` 文件中 — 参考 `.env.example`
 
 ## 文档
 
-完整案例和 Pro 增值包见 [zens.ink](https://zens.ink)
+- **完整文档与案例**：[zens.ink/docs](https://zens.ink/docs)
+- **Pro 增值包**（全流程自动审计、HTML 报告、GEO 评分）：[zens.ink](https://zens.ink)
 
 ## 开源协议
 
