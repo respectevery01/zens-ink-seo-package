@@ -48,7 +48,7 @@ _STATIC_EXTS = {
 # ── Parsing ──────────────────────────────────────────────────────────────
 
 def parse_sitemap(sitemap_path: Path, base_path: str = "") -> set[str]:
-    """Extract URL paths from sitemap XML."""
+    """Extract URL paths from sitemap XML (supports sitemap-index)."""
     if not sitemap_path.exists():
         for alt in ["sitemap-0.xml", "sitemap.xml"]:
             alt_path = sitemap_path.parent / alt
@@ -60,6 +60,28 @@ def parse_sitemap(sitemap_path: Path, base_path: str = "") -> set[str]:
             sys.exit(1)
 
     content = sitemap_path.read_text(errors="ignore")
+
+    # If this is a sitemap index, follow sub-sitemaps
+    if "<sitemapindex" in content:
+        sub_locs = re.findall(r"<loc>(.*?\.xml)</loc>", content)
+        paths = set()
+        for sub_url in sub_locs:
+            parsed = urlparse(sub_url)
+            sub_file = sitemap_path.parent / Path(parsed.path).name
+            if sub_file.exists():
+                sub_paths = parse_sitemap(sub_file, base_path)
+                paths.update(sub_paths)
+        # Also scan for any sitemap-*.xml siblings
+        for sibling in sitemap_path.parent.glob("sitemap*.xml"):
+            if sibling == sitemap_path:
+                continue
+            sibling_content = sibling.read_text(errors="ignore")
+            if "<sitemapindex" in sibling_content:
+                continue  # already handled above
+            sub_paths = parse_sitemap(sibling, base_path)
+            paths.update(sub_paths)
+        return paths
+
     urls = re.findall(r"<loc>(.*?)</loc>", content)
 
     paths = set()
