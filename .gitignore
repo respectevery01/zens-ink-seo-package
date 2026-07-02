@@ -13,3 +13,6 @@ kd-cache.json
 kd-progress.log
 kd-report.json
 brave-volume-*.json
+build/
+zens_ink.egg-info/
+*.egg-info/
