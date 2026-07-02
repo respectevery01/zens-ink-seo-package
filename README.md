@@ -11,6 +11,7 @@ CLI tools for keyword research, competitor analysis, and technical audits. Zero 
 [![License: MIT](https://img.shields.io/badge/License-MIT-7c3aed?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-059669?style=flat-square)](https://github.com/respectevery01/zens-ink-seo-package)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-7c3aed?style=flat-square)](SKILL.md)
 [![GitHub stars](https://img.shields.io/github/stars/respectevery01/zens-ink-seo-package?style=flat-square&color=7c3aed)](https://github.com/respectevery01/zens-ink-seo-package)
 [![GitHub last commit](https://img.shields.io/github/last-commit/respectevery01/zens-ink-seo-package?style=flat-square&color=a8a29e)](https://github.com/respectevery01/zens-ink-seo-package)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-7c3aed?style=flat-square)](https://github.com/respectevery01/zens-ink-seo-package/pulls)
@@ -38,32 +39,72 @@ Ahrefs costs $200/month. SEMrush costs $130/month. For indie builders who just n
 
 zens.ink wires together free public data sources — Google Autocomplete, Bing Webmaster Tools, Google Search Console, Brave Search — with zero Python dependencies.
 
-## Quick Start
+## Install
+
+**Option A — pip (recommended)**
+
+```bash
+pip install git+https://github.com/respectevery01/zens-ink-seo-package.git
+```
+
+After install, the `zens-ink` command is available globally:
+
+```bash
+zens-ink --help
+```
+
+**Option B — git clone**
 
 ```bash
 git clone https://github.com/respectevery01/zens-ink-seo-package.git
 cd zens-ink-seo-package
+```
 
+## Quick Start
+
+```bash
 # Discover keywords (with a-z long-tail expansion)
-python3 -m zens_ink.keyword_research "tarot" --expand
+zens-ink keyword_research "tarot" --expand
 
 # Check real search volume
-python3 -m zens_ink.keyword_volume "tarot reading" --country us
+zens-ink keyword_volume "tarot reading" --country us
 
 # Keyword difficulty (SERP-based, with Chinese mode)
-python3 -m zens_ink.kd "塔罗牌" --zh
+zens-ink kd "塔罗牌" --zh
 
 # Compare 3 competitors at once
-python3 -m zens_ink.competitor_gap \
+zens-ink competitor_gap \
   --url https://yoursite.com/sitemap.xml \
   --compare https://competitor-a.com/sitemap.xml https://competitor-b.com/sitemap.xml
 
 # Audit your build for SEO issues
-python3 -m zens_ink.site_audit --dist dist --sitemap dist/sitemap.xml
+zens-ink site_audit --dist dist --sitemap dist/sitemap.xml
 
 # Check your own Google search performance
-python3 -m zens_ink.search_performance
+zens-ink search_performance
 ```
+
+<details>
+<summary>Not installed? Use <code>python3 -m</code> instead</summary>
+
+```bash
+python3 -m zens_ink.keyword_research "tarot" --expand
+python3 -m zens_ink.kd "tarot reading"
+python3 -m zens_ink.site_audit --dist dist --sitemap dist/sitemap.xml
+```
+
+</details>
+
+## Use as Agent Skill
+
+ZensInk works as an AI agent skill — let your AI assistant run SEO tools for you in plain language.
+
+```bash
+# Install for ClawHub / OpenClaw / Hermes compatible agents
+npx skills add respectevery01/zens-ink-seo-package --skill zens-ink
+```
+
+Then just tell your AI: "find keywords for my tarot site" and it runs the tools for you. See [SKILL.md](SKILL.md) for details.
 
 ## Typical Workflow
 
@@ -82,8 +123,8 @@ site_audit        →  make sure your pages are crawlable
 ## Requirements
 
 - Python 3.10+
-- No pip install required — uses standard library only
-- API keys (Bing, Serper, Brave, GSC) are stored in `.env` — see `.env.example`
+- Zero dependencies — pure standard library
+- Optional API keys (Bing, Serper, Brave, GSC) in `.env` — see `.env.example`
 
 ## Documentation
 
